@@ -1,27 +1,19 @@
 <template>
-    <div style="min-width: 1200px">
-        <HeadBar/>
-        <a-row>
-            <a-col :span="12">
-                <ShowMap/>
-            </a-col>
-            <a-col :span="12">
-                <BaseOption/>
-            </a-col>
-        </a-row>
+    <div>
+        <ShowMap/>
+        <PageFoot/>
     </div>
 </template>
 
 <script>
-    import BaseOption from "@/components/index/BaseOption";
-    import ShowMap from "@/components/index/ShowMap";
-    import HeadBar from "@/components/unit/HeadBar";
+    import PageFoot from "@/components/index/parts/PageFoot";
+    import ShowMap from "@/components/index/parts/ShowMap";
     export default {
         name: "IndexPage",
         components:{
-            BaseOption,
-            HeadBar,
-            ShowMap
+            ShowMap,
+            PageFoot
+
         }
     }
 </script>
