@@ -73,7 +73,7 @@ html,body {
 	font-size:50px;
 	font-weight:700;
 	color:#FFF;
-	margin: 2em 0 0 0;
+	margin: 1em 0 0 0;
 }
 .banner-info p{
 	font-size:16px;
@@ -156,6 +156,7 @@ html,body {
 }
 .content-grid{
 	text-align:center;
+	padding: 5px;
 }
 .content-grid h3{
 	color: #555555;
@@ -739,7 +740,7 @@ span.menu {
 		margin-top: 4em;
 	}
 	.banner-info h1 {
-		margin: 1.5em 0 0 0;
+		margin: 0.5em 0 0 0;
 	}
 	.button ul {
 		margin: 5em 0 2em 9.2em;

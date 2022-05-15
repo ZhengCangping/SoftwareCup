@@ -1,9 +1,10 @@
 <template>
     <carousel :autoplay="true" :nav="false" :items="1">
-            <div class="item">
+            <div class="item" v-for="func in funcnames" v-bind:key="func">
                 <div class="banner-info">
                     <img src="../../../assets/img/rok.png" alt="" style="width: 5%"/>
-                    <h1>LET'S EXPLORE THE SKY!</h1>
+                    <h1>{{func}}</h1>
+                    <h4>看见你看不见的变化 </h4>
                     <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. </p>
                     <a-button type="primary" class="useBtn">
                         USE IT!
@@ -15,11 +16,15 @@
 
 <script>
     import carousel from 'vue-owl-carousel'
-    // import $ from 'jquery'
     export default {
         name: "MyOwl",
         components:{
             carousel
+        },
+        data(){
+            return{
+                funcnames:['目标提取','变化检测','目标检测','地物分类']
+            }
         }
     }
 </script>
@@ -32,5 +37,10 @@
         width: 250px;
         height: 60px;
         font-size: larger;
+        background: #008fd5;
+    }
+    .banner-info h4{
+        margin-top: 30px;
+        color: white;
     }
 </style>
