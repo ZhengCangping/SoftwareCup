@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <IndexPage/>
+<!--    <IndexPage/>-->
+    <PersonalPage/>
   </div>
 </template>
 
 <script>
-import IndexPage from "@/components/index/IndexPage";
+// import IndexPage from "@/components/index/IndexPage";
 
+import PersonalPage from "@/components/personal/PersonalPage";
 export default {
   name: 'App',
   components: {
-    IndexPage
+    PersonalPage,
+    // IndexPage
   }
 }
 </script>

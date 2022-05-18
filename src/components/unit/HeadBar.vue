@@ -7,12 +7,12 @@
         <div class="top-nav">
             <span class="menu">MENU</span>
             <ul class="nav1">
-                <li><a href="#" class="scroll">SERVICES</a></li>
-                <li><a href="#" class="scroll">HOW</a></li>
-                <li><a href="#" class="scroll">OUR WORK</a></li>
-                <li><a href="#" class="scroll">TESTIMONINALS</a></li>
-                <li><a href="#" class="scroll">TEAM</a></li>
-                <li><a href="#" class="scroll">CONTACT US</a></li>
+                <li><a href="#" class="scroll">HOME</a></li>
+                <li><a href="#" class="scroll">FUNCTIONS</a></li>
+                <li><a href="#" class="scroll">ANALYSIS</a></li>
+                <li><a href="#" class="scroll">WARNING</a></li>
+                <li><a href="#" class="scroll">Q&A</a></li>
+                <li><a href="#" class="scroll">CONTACT</a></li>
                 <li><a class="signup play-icon popup-with-zoom-anim" href="#">SIGN IN</a></li>
             </ul>
 
@@ -30,5 +30,5 @@ export default {
 </script>
 
 <style scoped>
-
+ @import "../../assets/css/style.css";
 </style>
