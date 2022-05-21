@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 //页面
 import IndexPage from "@/components/index/IndexPage";
 import PersonalPage from "@/components/personal/PersonalPage";
+import QuestionPage from "@/components/question/QuestionPage";
 
 Vue.use(VueRouter)
 
@@ -17,6 +18,11 @@ const routes = [
     path: '/personal',
     name: 'personal',
     component: PersonalPage
+  },
+  {
+    path:'/question',
+    name:'question',
+    component: QuestionPage
   }
 ]
 
